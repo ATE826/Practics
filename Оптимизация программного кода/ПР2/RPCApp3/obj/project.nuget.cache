@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3We0qIhvpe0=",
+  "success": true,
+  "projectFilePath": "C:\\A) НЕ УДАЛЯТЬ\\Оптимизация программного кода\\ПР2\\RPCApp3\\RPCApp3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ATENotebook\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\ATENotebook\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\ATENotebook\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.30\\microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512",
+    "C:\\Users\\ATENotebook\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.30\\microsoft.netcore.app.host.win-x64.8.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}

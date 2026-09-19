@@ -1,0 +1,28 @@
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\bin\Debug\net8.0\RPKApp3.exe
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\bin\Debug\net8.0\RPKApp3.deps.json
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\bin\Debug\net8.0\RPKApp3.runtimeconfig.json
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\bin\Debug\net8.0\RPKApp3.dll
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\bin\Debug\net8.0\RPKApp3.pdb
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\obj\Debug\net8.0\RPKApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\obj\Debug\net8.0\RPKApp3.AssemblyInfoInputs.cache
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\obj\Debug\net8.0\RPKApp3.AssemblyInfo.cs
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\obj\Debug\net8.0\RPKApp3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\obj\Debug\net8.0\RPKApp3.dll
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\obj\Debug\net8.0\refint\RPKApp3.dll
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\obj\Debug\net8.0\RPKApp3.pdb
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\obj\Debug\net8.0\RPKApp3.genruntimeconfig.cache
+C:\Users\ASUS\RiderProjects\RPKApp1\RPKApp3\obj\Debug\net8.0\ref\RPKApp3.dll
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\bin\Debug\net8.0\RPKApp3.exe
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\bin\Debug\net8.0\RPKApp3.deps.json
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\bin\Debug\net8.0\RPKApp3.runtimeconfig.json
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\bin\Debug\net8.0\RPKApp3.dll
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\bin\Debug\net8.0\RPKApp3.pdb
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\obj\Debug\net8.0\RPKApp3.GeneratedMSBuildEditorConfig.editorconfig
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\obj\Debug\net8.0\RPKApp3.AssemblyInfoInputs.cache
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\obj\Debug\net8.0\RPKApp3.AssemblyInfo.cs
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\obj\Debug\net8.0\RPKApp3.csproj.CoreCompileInputs.cache
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\obj\Debug\net8.0\RPKApp3.dll
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\obj\Debug\net8.0\refint\RPKApp3.dll
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\obj\Debug\net8.0\RPKApp3.pdb
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\obj\Debug\net8.0\RPKApp3.genruntimeconfig.cache
+c:\A) НЕ УДАЛЯТЬ\Оптимизация программного кода\ПР1\RPKApp3\obj\Debug\net8.0\ref\RPKApp3.dll
