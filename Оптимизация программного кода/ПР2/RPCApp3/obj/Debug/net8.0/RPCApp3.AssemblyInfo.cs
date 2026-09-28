@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPCApp3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2146f83a0489dbf4e597546e87e535e22a1bdccf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c8d9b17cda37b602abe5e13fd2f46fc3f297fea")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPCApp3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPCApp3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
