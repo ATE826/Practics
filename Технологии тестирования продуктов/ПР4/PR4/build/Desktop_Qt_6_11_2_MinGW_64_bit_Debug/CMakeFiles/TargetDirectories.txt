@@ -1,0 +1,9 @@
+C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/Test_pr-4.dir
+C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/edit_cache.dir
+C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/rebuild_cache.dir
+C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/list_install_components.dir
+C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/install.dir
+C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/install/local.dir
+C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/install/strip.dir
+C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/Test_pr-4_autogen_timestamp_deps.dir
+C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/Test_pr-4_autogen.dir

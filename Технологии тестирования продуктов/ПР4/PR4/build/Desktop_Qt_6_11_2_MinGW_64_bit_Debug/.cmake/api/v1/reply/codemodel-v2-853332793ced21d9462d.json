@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-00d5eb8d588dadc87ad1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Test_pr-4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_pr-4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_pr-4-Debug-7744529ccaa79313b3ea.json",
+					"name" : "Test_pr-4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_pr-4_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_pr-4_autogen-Debug-ae9f8ce2727af7b6d84f.json",
+					"name" : "Test_pr-4_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_pr-4_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_pr-4_autogen_timestamp_deps-Debug-60134942190bd4b443a3.json",
+					"name" : "Test_pr-4_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/ToniTsey/Qt/PR4/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug",
+		"source" : "C:/ToniTsey/Qt/PR4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
