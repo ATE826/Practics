@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3We0qIhvpe0=",
+  "dgSpecHash": "sI+kHo13ndM=",
   "success": true,
   "projectFilePath": "C:\\A) НЕ УДАЛЯТЬ\\Оптимизация программного кода\\ПР2\\RPCApp3\\RPCApp3.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ATENotebook\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.30\\microsoft.netcore.app.ref.8.0.30.nupkg.sha512",
-    "C:\\Users\\ATENotebook\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.30\\microsoft.windowsdesktop.app.ref.8.0.30.nupkg.sha512",
-    "C:\\Users\\ATENotebook\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.30\\microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512",
-    "C:\\Users\\ATENotebook\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.30\\microsoft.netcore.app.host.win-x64.8.0.30.nupkg.sha512"
+    "C:\\Users\\ToniTsey\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.31\\microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\ToniTsey\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.31\\microsoft.windowsdesktop.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\ToniTsey\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.31\\microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\ToniTsey\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.31\\microsoft.netcore.app.host.win-x64.8.0.31.nupkg.sha512"
   ],
   "logs": []
 }
