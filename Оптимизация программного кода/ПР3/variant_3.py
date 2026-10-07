@@ -1,29 +1,50 @@
 import time
 import random
-from collections import Counter
 
 
 def word_frequency(texts: list[str]) -> dict[str, int]:
-    counter = Counter()
+    all_words = []
     for text in texts:
-        for w in text.lower().split():
+        words = text.lower().split()
+        for w in words:
             cleaned = "".join(c for c in w if c.isalnum())
             if cleaned:
-                counter[cleaned] += 1
-    return dict(counter)
+                all_words.append(cleaned)
+    unique = []
+    for w in all_words:
+        if w not in unique:
+            unique.append(w)
+    freq = {}
+    for w in unique:
+        count = 0
+        for other in all_words:
+            if other == w:
+                count += 1
+        freq[w] = count
+    return freq
 
 
 def bigram_counts(texts: list[str]) -> dict[tuple[str, str], int]:
-    counter = Counter()
+    bigrams = []
     for text in texts:
-        words = [
-            cleaned
-            for cleaned in ("".join(c for c in w if c.isalnum()) for w in text.lower().split())
-            if cleaned
-        ]
+        words = ["".join(c for c in w if c.isalnum()) for w in text.lower().split()]
+        words = [w for w in words if w]
         for i in range(len(words) - 1):
-            counter[(words[i], words[i + 1])] += 1
-    return dict(counter)
+            bigrams.append((words[i], words[i + 1]))
+
+    unique_bi = []
+    for b in bigrams:
+        if b not in unique_bi:
+            unique_bi.append(b)
+
+    counts = {}
+    for b in unique_bi:
+        cnt = 0
+        for other in bigrams:
+            if other == b:
+                cnt += 1
+        counts[b] = cnt
+    return counts
 
 
 def generate_texts(n: int) -> list[str]:
@@ -37,6 +58,68 @@ def generate_texts(n: int) -> list[str]:
         length = random.randint(5, 15)
         texts.append(" ".join(random.choices(words_pool, k=length)))
     return texts
+
+
+def run_task(n: int):
+    texts = generate_texts(n)
+    freq = word_frequency(texts)
+    bigrams = bigram_counts(texts)
+    return len(freq), len(bigrams)
+
+
+if __name__ == "__main__":
+    random.seed(42)
+    for n in [300, 600, 1200]:
+        start = time.perf_counter()
+        res = run_task(n)
+        elapsed = time.perf_counter() - start
+        print(f"N={n:5d}  result={res}  time={elapsed:.4f}s")
+
+
+
+print("\n===============================\n")
+
+
+
+import random
+import re
+import time
+from collections import Counter
+
+_NON_ALNUM = re.compile(r"[\W_]+")
+
+
+def tokenize(text: str) -> list[str]:
+    """Слова строки в нижнем регистре без небуквенно-цифровых символов."""
+    words = (_NON_ALNUM.sub("", w) for w in text.lower().split())
+    return [w for w in words if w]
+
+
+def word_frequency(texts: list[str]) -> dict[str, int]:
+    freq = Counter()
+    for text in texts:
+        freq.update(tokenize(text))
+    return dict(freq)
+
+
+def bigram_counts(texts: list[str]) -> dict[tuple[str, str], int]:
+    counts = Counter()
+    for text in texts:
+        words = tokenize(text)
+        counts.update(zip(words, words[1:]))
+    return dict(counts)
+
+
+def generate_texts(n: int) -> list[str]:
+    words_pool = [
+        "the", "quick", "brown", "fox", "jumps", "over", "lazy", "dog",
+        "python", "code", "optimization", "performance", "algorithm",
+        "data", "structure", "analysis", "profiling", "memory", "cache",
+    ]
+    return [
+        " ".join(random.choices(words_pool, k=random.randint(5, 15)))
+        for _ in range(n)
+    ]
 
 
 def run_task(n: int):
