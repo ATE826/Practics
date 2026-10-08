@@ -1,0 +1,7 @@
+,Настоящие,GMM до очистки,GMM после очистки
+R1: PhoneService=No -> MultipleLines=No,0.0,0.0028,0.0
+R2: InternetService=No -> все доп. услуги интернета = No,0.0,0.0,0.0
+R3: tenure=0 <=> TotalCharges=0,0.0,0.0222,0.0
+R4: TotalCharges ~ tenure x MonthlyCharges,0.0088,0.1994,0.0
+R5: значения в допустимых диапазонах (tenure - целое 0..72),0.0,1.0,0.0
+Любое нарушение,0.0088,1.0,0.0
