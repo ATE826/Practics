@@ -50,7 +50,7 @@ print("СЫРЫЕ данные: всего", raw.shape, "| train", Xtr_r.shape, 
       "| классы в train:", np.bincount(ytr_r))
 
 
-# Шаг 3: ПРЕДОБРАБОТАННЫЕ данные (как в ПР1)
+# Шаг 3: ПРЕДОБРАБОТАННЫЕ данные
 df = pd.read_csv(PATH)
 df['TotalCharges'] = pd.to_numeric(df['TotalCharges'], errors='coerce').fillna(0)
 df = df.drop(columns='customerID').drop_duplicates().reset_index(drop=True)

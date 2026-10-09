@@ -53,6 +53,7 @@ LO, HI = df[num].min(), df[num].max()
 sc = StandardScaler().fit(df[num])
 
 
+# Кодирование DataFrame в матрицу для GMM
 def encode(d):
     parts = [sc.transform(d[num])]
     for c in CAT:
@@ -61,6 +62,7 @@ def encode(d):
     return np.hstack(parts)
 
 
+# Декодирование сгенерированных данных обратно в DataFrame
 def decode(M):
     out = pd.DataFrame(sc.inverse_transform(M[:, :len(num)]), columns=num)
     j = len(num)
@@ -107,6 +109,7 @@ RULES = ["R1: PhoneService=No -> MultipleLines=No",
          "R5: значения в допустимых диапазонах (tenure - целое 0..72)"]
 
 
+# Экспертные ограничения предметной области (аналог логических правил "A -> B")
 def violations(d):
     t = d['tenure'].round(); tc = d['TotalCharges']
     ratio = tc / (t.where(t > 0) * d['MonthlyCharges'])
@@ -122,6 +125,7 @@ def violations(d):
     return v
 
 
+# Функция очистки сгенерированных данных по экспертным ограничениям
 def repair(d):
     d = d.copy()
     d['tenure'] = d['tenure'].round().clip(0, 72)
@@ -206,6 +210,7 @@ def to_matrix(d):
     return pd.get_dummies(m, drop_first=True, dtype=int)
 
 
+# Корреляции между признаками (настоящие vs GMM)
 C_real, C_syn = to_matrix(df).corr(), to_matrix(syn).corr().reindex_like(to_matrix(df).corr()).fillna(0)
 iu = np.triu_indices(len(C_real), 1)
 print(f"\nСреднее |Δcorr| по всем парам: {np.abs(C_real.values - C_syn.values)[iu].mean():.3f}")
